@@ -22,4 +22,4 @@ deploy:
    keep-history: true
    local_dir: _result/html
    on:
-branch: master
+branch: source
