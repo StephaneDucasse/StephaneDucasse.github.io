@@ -1,0 +1,6 @@
+Foliage {
+	#baseUri: 'https://StephaneDucasse.github.io',
+	#blogs: [ 
+		'news': 'Pharo News'
+	]
+}
