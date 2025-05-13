@@ -1,0 +1,4 @@
+<ul class="nav navbar-nav">
+    <li><a href="/news" class="{{#news-active}}active{{/news-active}}">News</a></li>
+    <li><a href="/coordinates"  class="{{#about-active}}active{{/about-active}}">Coordinates</a></li>
+</ul>
