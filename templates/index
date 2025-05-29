@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+	{{> head }}
+	<body>
+	
+	{{> headerSite }}
+	{{> menu }}
+
+	<div id="mainContent">
+		
+	{{> persoDetails}}
+
+	{{{body}}}
+	</div>
+	
+	</body>
+</html>
