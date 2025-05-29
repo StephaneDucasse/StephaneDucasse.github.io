@@ -1,19 +1,19 @@
 name: publish-staging
 
-on:
-  push:
-    branches: [ staging ]
-  pull_request:
-    branches: [ staging ]
+#on:
+#  push:
+##    branches: [ staging ]
+#  pull_request:
+#    branches: [ staging ]
 
-jobs:
-  generate: 
-    name: "Generate site"
-    runs-on: ubuntu-22.04
-    steps: 
-      - uses: actions/checkout@v2
-      - name: "Generate static HTML"
-        uses: estebanlm/foliage-action@v1.4.4
+#jobs:
+#  generate: 
+#    name: "Generate site"
+#    runs-on: ubuntu-22.04
+#    steps: 
+#      - uses: actions/checkout@v2
+#      - name: "Generate static HTML"
+#        uses: estebanlm/foliage-action@v1.4.4
 
 # We will see how this integrate with github.io later
 #      - name: "Upload to server"
