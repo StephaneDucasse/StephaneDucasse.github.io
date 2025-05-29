@@ -31,5 +31,5 @@ git push
 
 # Go back to sources branch
 git checkout $SOURCES_BRANCH
-git checkout $SOURCES_BRANCH -- _site
+git checkout $SOURCES_BRANCH -- generated
 
