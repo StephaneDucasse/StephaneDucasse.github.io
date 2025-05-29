@@ -6,11 +6,11 @@
 
 I like to code (in Pharo) and this helps me learn new things, get feedback on dev, and generate ideas for my research.
 Here are the main software artefacts I'm developing or contributing too.
-For more projects have a look at [https://github.com/Ducasse](https://github.com/Ducasse)
+For more projects, have a look at [https://github.com/Ducasse](https://github.com/Ducasse)
 
 ## Pharo [https://github.com/pharo-project/pharo](https://github.com/pharo-project/pharo)
  Of course I'm contributing to Pharo. Cleaning and improving it a lot since day one!
- More recently I started to work on the refactoring engine and I enjoy it. I'm also working on extensions for the great completion framework of Pharo written by G. Polito. 
+More recently, I started to work on the refactoring engine and I enjoy it. I'm also working on extensions for the great completion framework of Pharo written by G. Polito. 
  
 ## Pillar [https://github.com/pillar-markup/pillar](https://github.com/pillar-markup/pillar)
 Pillar is a compilation chain architecture. It was originally a markup (for SmallWiki written by Lukas Renggli) with a syntax close 
