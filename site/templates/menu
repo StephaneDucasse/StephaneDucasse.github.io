@@ -1,0 +1,16 @@
+<div id="menu">
+	<div id="toc">
+		<div id="tocItem"><a href="/index.html">Home</a>
+		</div>
+		<div id="tocItem"><a href="/aboutPharo.html">About Pharo</a>
+		</div>
+		<div id="tocItem"><a href="/software.html">Software dev</a>
+		</div>
+		<div id="tocItem"><a href="/news/index.html">News</a>
+		</div>
+		<div id="tocItem"><a href="/topics/index.html">Topics</a>
+		</div>
+		<div id="tocItem"><a href="/coordinates.html">Coordinates</a>
+		</div>
+	</div>
+</div>    <!--Closing menu -->
