@@ -1,17 +1,13 @@
-<!DOCTYPE HTML>
 <html>
-    {{> head}}
-    <body class="default">
-        <div id="wrap">
-            <div id="main">
-                {{> header}}
-                <div class="container">
-                    <h1>{{title}}</h1>
-                    {{> main }}
-                    {{> blog-footer}}
-                </div>
-            </div>
-        </div>
-        {{> footer}}
-    </body>
+	{{> head }}
+	<body>
+	
+	{{> headerSite }}
+	{{> menu }}
+
+	<div id="mainContent">
+		<h1>{{title}}</h1>
+		{{{body}}}
+	</div>
+	</body>
 </html>

@@ -1,31 +1,42 @@
 <!DOCTYPE HTML>
 <html>
-    {{> head}}
-    <body class="default">
-        <div id="wrap">
+	{{> head }}
+    <body>
             <div id="main">
-                {{> header}}
+                {{> headerSite}}
+		{{> menu}}
 
-                <div class="container">
+                <div id="mainContent">
                     <h1><a href="{{pathString}}">{{title}}</a></h1>
-                    {{> main}}
+                    {{{body}}}
                     <div class="date">{{publicationDate}}</div>
-                  			
-                  	<div>
-                  		<div class="col-left" style="float: left">
-                  			{{# previousPost }}
-			          		&lt;-- <a href="{{pathString}}">{{title}}</a>
-      						{{/ previousPost }}
-      					</div>
-                  		<div class="col-right" style="float: right">
-		      				{{# nextPost }}
-					        <a href="{{pathString}}">{{title}}</a> --&gt;
-		      				{{/ nextPost }}
-      					</div>
-      				</div>
-                </div>
-            </div>
+
+
+<style>
+  .col-left {
+     margin-bottom: 3cm;
+  }
+  .col-right {
+     margin-bottom: 3cm;
+  }
+</style>
+
+<p class="col-left">
+<div>
+		<div class="col-left" style="float: left">
+		{{# previousPost }}
+		&lt;-- <a href="{{pathString}}">{{title}}</a>
+		{{/ previousPost }}
+		</div>
+
+		<div class="col-right" style="float: right">
+		{{# nextPost }}
+		<a href="{{pathString}}">{{title}}</a> --&gt;
+		{{/ nextPost }}
+		</div>
+		</div>
+</div>
+</p>
         </div>
-        {{> footer}}
     </body>
 </html>

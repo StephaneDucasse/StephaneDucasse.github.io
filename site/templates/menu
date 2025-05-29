@@ -1,10 +1,14 @@
-<ul class="nav navbar-nav">
-    <li><a href="/news" class="{{#news-active}}active{{/news-active}}">News</a></li>
-    <li><a href="/features"  class="{{#features-active}}active{{/features-active}}">Features</a></li>
-    <li><a href="/download"  class="{{#download-active}}active{{/download-active}}">Download</a></li>
-    <li><a href="/documentation"  class="{{#documentation-active}}active{{/documentation-active}}">Documentation</a></li>
-    <li><a href="/community"  class="{{#community-active}}active{{/community-active}}">Community</a></li>
-    <li><a href="/contribute"  class="{{#contribute-active}}active{{/contribute-active}}">Contribute</a></li>
-    <li><a href="/success"  class="{{#success-active}}active{{/success-active}}">Stories</a></li>
-    <li><a href="/about"  class="{{#about-active}}active{{/about-active}}">About</a></li>
-</ul>
+<div id="menu">
+	<div id="toc">
+		<div id="tocItem"><a href="/index.html">Home</a>
+		</div>
+		<div id="tocItem"><a href="/aboutPharo.html">About Pharo</a>
+		</div>
+		<div id="tocItem"><a href="/news/index.html">News</a>
+		</div>
+		<div id="tocItem"><a href="/topics/index.html">Topics</a>
+		</div>
+		<div id="tocItem"><a href="/Coordinates.html">Coordinates</a>
+		</div>
+	</div>
+</div>    <!--Closing menu -->

@@ -1,6 +1,7 @@
 Foliage {
-	#baseUri: 'https://StephaneDucasse.github.io',
+	#baseUri: 'http://stephaneducasse.github.io',
 	#blogs: [ 
-		'news': 'Pharo News'
+		'news': 'News', 
+		'topics': 'Some topics' 
 	]
 }

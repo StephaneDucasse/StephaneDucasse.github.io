@@ -1,5 +1,0 @@
-{{> navbar}}
-
-<div class="container">
-    {{> index-teaser}}
-</div>
