@@ -4,17 +4,17 @@ on:
   push:
     branches: [ source ]
 
-jobs:
-  generate: 
-    name: "Generate site"
-    runs-on: ubuntu-22.04
-    steps: 
-      - uses: actions/checkout@v2
-      - name: "Generate static HTML"
-        uses: estebanlm/foliage-action@v1.4.4
-        with:
-          source: './site'
-          target: 'generated'
+#jobs:
+#  generate: 
+#    name: "Generate site"
+#    runs-on: ubuntu-22.04
+#    steps: 
+#      - uses: actions/checkout@v2
+#      - name: "Generate static HTML"
+#        uses: estebanlm/foliage-action@v1.4.4
+#        with:
+#          source: './site'
+#          target: 'generated'
 
 # we will see how it integrate with github.io later
 #      - name: "Upload to server"
