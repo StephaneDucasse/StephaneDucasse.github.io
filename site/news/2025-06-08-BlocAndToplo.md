@@ -43,5 +43,7 @@ A tutorial is available [A Simple Memory Game Tutorial](https://books.pharo.org/
 
 We did some games with Enzo Demeulenaere [Games in Bloc](https://github.com/Ducasse/Myg)
 
-All this work is sponsored by Thales which uses it to design and prototype UX. 
-For example they did an interactive sale application for Thalse with an old version  [See on youtube](https://www.youtube.com/watch?v=t5qaFM2F3J0).
+
+### Ack
+All this work is sponsored by Thales, which uses it to design and prototype UX. 
+A public example is an interactive sales application for Thales with an old version of Bloc and Toplo [See on youtube](https://www.youtube.com/watch?v=t5qaFM2F3J0). They presented it at ESUG 2023 at Lyon. 
