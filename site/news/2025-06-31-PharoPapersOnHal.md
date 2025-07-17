@@ -1,7 +1,7 @@
 {
 "title": "Pharo papers on HAL",
 "layout": "blogpost",
-"publishDate": "2025-06-31"
+"publishDate": "2025-06-30"
 }
 
 
