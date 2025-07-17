@@ -17,6 +17,7 @@ git push
 git checkout $DEPLOY_BRANCH
 
 # Clean it
+rm -rf *
 git rm -rf *
 
 # Get the generated site from the source branch
