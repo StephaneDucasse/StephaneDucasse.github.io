@@ -1,6 +1,6 @@
 {
 "title" : "Publications",
-"layout" : "default",
+"layout" : "index",
 "plugin" : [ "kind" : "publicationList",
 	"pluginSpec" : [ 
 	#authorMatchingString : '*Ducasse*',
