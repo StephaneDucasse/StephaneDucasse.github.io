@@ -122,6 +122,19 @@ Here is the book at [Amazon](http://www.amazon.com/exec/obidos/search-handle-for
 
 I wrote some columns in developer journals and many of them were the first one in France about Software Engineering good practices such as Unit testing and refactorings.
 
-
-
-
+- [ Un tour en Squeak ](/columns/Art1-SqueakTour.pdf)
+- [ Syntax ](/columns/Art2-Eng-AminimalistSyntax.pdf)
+- [ Syntaxe ](/columns/Art2-syntaxeMinimale.pdf)
+- [ Syntaxe par l'exemple ](/columns/Art3-Syntax.pdf)
+- [ Une première classe ](/columns/Art4-Class.pdf)
+- [ Introspection ](/columns/Art5-Introspection.pdf)
+- [ Réflexion ](/columns/Art6-Reflexion.pdf)
+- [ Refactorings ](/columns/Art7-Refactoring.pdf)
+- [ Refactorings 2](/columns/Art7-RefactoringVW.pdf)
+- [ SUnit ](/columns/Art8-SUnit.pdf)
+- [ SUnit in english ](/columns/Eng-Art8-SUnit-V1.pdf)
+- [ Une introduction à Seaside ](/columns/FinalSeasideOne.pdf)
+- [ La suite de Seaside ](/columns/FinalSeasideTwo.pdf)
+- [ Another Seaside tutorial ](/columns/SeasideThree.pdf)
+- [ SUnit explained ](/columns/SUnitEnglish2.pdf)
+- [ SUnit ](/columns/SUnitEnglish2Old.pdf)
