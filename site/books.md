@@ -9,13 +9,13 @@ Over the years, I wrote the following books. I enjoyed it even if this is always
 For the moment, I did not add the most recent books since you can find them at http://books.pharo.org/.
 
 If you like my free books
-- Buy them - Some are on https://www.amazon.com and https://www.decitre.fr
+- Buy them - Some are on https://www.amazon.com and https://www.decitre.fr/search?search=Stephane+Ducasse
 - Sponsor me :) (soon I will put back the paypal donate button)
 - Send some money to the pharo association https://association.pharo.org
 
 Thanks in advance. 
 
-## Books
+## Some previous books
 
 <table width="95%" height="174">
 
@@ -107,7 +107,7 @@ Here is the book at [Amazon](http://www.amazon.com/exec/obidos/search-handle-for
                         <img src="books/recursiveprogramming/scheme.jpg" width=150>
                     </td>
                     <td width="65%">
-                            [ La programmation : une approche fonctionnelle et recursive avec Scheme ](https://stephaneducasse.github.io/books/recursiveprogramming/book.html)
+                            [ La programmation : une approche fonctionnelle et recursive avec Scheme ](books/recursiveprogramming/book.html)
                                  L. Arditi and S. Ducasse, Eyrolles, 1996.
                            
                             This book explains how recursion works, how to build recursive functions in a way that you are sure that they work. This book was used in the first and second years at the University of Nice-Sophia  Antipolis, where we had a lot of fun teaching.
@@ -118,7 +118,10 @@ Here is the book at [Amazon](http://www.amazon.com/exec/obidos/search-handle-for
 </table>
 
 
-## Columns
+## Soon Columns
+
+I wrote some columns in developer journals and many of them were the first one in France about Software Engineering good practices such as Unit testing and refactorings.
+
 
 
 
