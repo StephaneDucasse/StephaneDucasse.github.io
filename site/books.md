@@ -21,7 +21,7 @@ Thanks in advance.
 
 <tr>
 <td width="35%">
-                        <img src="books/reengineeringpatterns/oorp-cover.jpg" width=150>
+                        <img src="/books/reengineeringpatterns/oorp-cover.jpg" width=150>
 </td>
 <td width="65%">
 [Object-Oriented Reengineering Patterns](https://www.oscar.nierstrasz.org/oorp/)
@@ -34,7 +34,7 @@ you reengineer large systems. It describes migration strategies, reverse enginee
 
                 <tr>
                     <td width="35%">
-                        <img src="books/deepintopharo/deepintopharo.jpg" width=150>
+                        <img src="/books/deepintopharo/deepintopharo.jpg" width=150>
                     </td>
                     <td width="65%">
                        
@@ -50,7 +50,7 @@ Deep into Pharo is the second volume of a series of books covering Pharo. Wherea
 
                 <tr>
                     <td width="35%">
-                        <img src="books/pharobyexample/pharobyexample.jpg" width=150>
+                        <img src="/books/pharobyexample/pharobyexample.jpg" width=150>
                     </td>
                     <td width="65%">
                             [Pharo by Example](http://books.pharo.org)
@@ -64,7 +64,7 @@ Deep into Pharo is the second volume of a series of books covering Pharo. Wherea
 
                 <tr>
                     <td width="35%">
-                        <img src="books/squeakbyexample/squeakbyexample.png" width=150>
+                        <img src="/books/squeakbyexample/squeakbyexample.png" width=150>
                     </td>
                     <td width="65%">
                             [Squeak by example](https://hal.inria.fr/inria-00441576/document)
@@ -77,7 +77,7 @@ Deep into Pharo is the second volume of a series of books covering Pharo. Wherea
 
                 <tr>
                     <td width="35%">
-                        <img src="books/botsinc/cover-mini.jpg" width=150>
+                        <img src="/books/botsinc/cover-mini.jpg" width=150>
                     </td>
                     <td width="65%">
                             [Squeak: Learn programming with Robots](https://botsinclearners.github.io). Stéphane Ducasse. Apress Publishers, 2005.
@@ -90,7 +90,7 @@ Here is the book at [Amazon](http://www.amazon.com/exec/obidos/search-handle-for
 
                 <tr>
                     <td width="35%">
-                        <img src="books/programminginsqueak/squeakbook.gif" width=150>
+                        <img src="/books/programminginsqueak/squeakbook.gif" width=150>
                     </td>
                     <td width="65%">
                         Squeak (in French). X. Briffault and Stéphane Ducasse, Eyrolles, 2001. This book presents an old version of Squeak. It presents the multimedia, net, the language. It was one of the first book to present in French advanced tools such as refactoring and unit testing. Here are the final versions of some chapters.
@@ -104,7 +104,7 @@ Here is the book at [Amazon](http://www.amazon.com/exec/obidos/search-handle-for
 
                 <tr>
                     <td width="35%">
-                        <img src="books/recursiveprogramming/scheme.jpg" width=150>
+                        <img src="/books/recursiveprogramming/scheme.jpg" width=150>
                     </td>
                     <td width="65%">
                             [ La programmation : une approche fonctionnelle et recursive avec Scheme ](books/recursiveprogramming/book.html)
