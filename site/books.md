@@ -77,7 +77,7 @@ Deep into Pharo is the second volume of a series of books covering Pharo. Wherea
 
                 <tr>
                     <td width="35%">
-                        <img src="/books/botsinc/cover-mini.jpg" width=150>
+                        <img src="/books/botsinc/Cover-mini.jpg" width=150>
                     </td>
                     <td width="65%">
                             [Squeak: Learn programming with Robots](https://botsinclearners.github.io). Stéphane Ducasse. Apress Publishers, 2005.
