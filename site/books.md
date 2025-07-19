@@ -114,13 +114,12 @@ Here is the book at [Amazon](http://www.amazon.com/exec/obidos/search-handle-for
                         </div>
                     </td>
                 </tr>
-
 </table>
 
 
-## Soon Columns
+## Some old columns in developer's magazines
 
-I wrote some columns in developer journals and many of them were the first one in France about Software Engineering good practices such as Unit testing and refactorings.
+I wrote some columns in developer journals (such as https://www.programmez.com) and many of them were the first one in France about Software Engineering good practices such as Unit testing and refactorings.
 
 - [ Un tour en Squeak ](/columns/Art1-SqueakTour.pdf)
 - [ Syntax ](/columns/Art2-Eng-AminimalistSyntax.pdf)
