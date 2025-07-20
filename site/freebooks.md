@@ -22,7 +22,7 @@ You can also support me.
 
 You can find a lot more recent and free books (Spec, Pharo by Example Updated, Pharo with Style, Learning OOD with TDD, and many more) at http://books.pharo.org. 
 
-In addition most the new books around Pharo are hosted at http://github.com/SquareBracketAssociates and each project has an automatic build with the latest PDF version.
+Most the new books around Pharo are hosted at http://github.com/SquareBracketAssociates and each project has an automatic build with the latest PDF version.
 
 
 ## Some other books
@@ -36,10 +36,10 @@ If you have more books and you want to get them archived and listed here please 
 <img src="freebooks/DynamicWebDevInSeaside/DynWebDevInSeaside.png" width=100>
 </td>
 <td width="65%">
-[ Dynamic Web Development with Seaside ](http://book.seaside.st/)
-Stephane Ducasse, Lukas Renggli, David C. Shaffer and Rick Zaccone. Square Bracket Associates, 2009.
+[ Dynamic Web Development with Seaside ](https://github.com/SquareBracketAssociates/DynamicWebDevelopmentWithSeaside/blob/master/originalPDF/2014-07-16-seaside.pdf)
+By Stéphane Ducasse, Lukas Renggli, David C. Shaffer and Rick Zaccone. Square Bracket Associates, 2009.
 
-This book is made available under the Creative Commons Attribution-ShareAlike 3.0 license. You can buy a softcover copy from [Lulu](http://www.lulu.com).
+This book is made available under the Creative Commons Attribution-ShareAlike 3.0 license. You can buy a softcover copy from [Lulu](http://www.lulu.com). Check https://github.com/SquareBracketAssociates/DynamicWebDevelopmentWithSeaside/
 </td>
 </tr>
 
@@ -49,14 +49,12 @@ This book is made available under the Creative Commons Attribution-ShareAlike 3.
 </td>
 <td width="65%">
 
-<a href="http://books.pharo.org/">[ Pharo by Example (original version and translation) ]</a>
- Andrew P. Black, St&eacute;phane Ducasse, Oscar Nierstrasz, Damien Pollet with Damien Cassou and Marcus Denker. Square Bracket Associates, 2009.
+[ Pharo by Example (original version and translation) ](http://books.pharo.org/)
+By Andrew P. Black, St&eacute;phane Ducasse, Oscar Nierstrasz, Damien Pollet with Damien Cassou and Marcus Denker. Square Bracket Associates, 2009.
 
- Pay attention there is also Pharo by Example Updated (for Pharo 50) and we are working on Pharo by Example for Pharo 80.
-	 
-	This book is made available under the Creative Commons Attribution-ShareAlike 3.0 license. You will be able to  buy a softcover copy from 
-<a href="http://www.lulu.com/">lulu.com</a>. 
-	
+Pay attention there is also Pharo by Example Updated (for Pharo 90).	 
+This book is made available under the Creative Commons Attribution-ShareAlike 3.0 license. You will be able to  buy a softcover copy from [Lulu](https://www.lulu.com/).
+
 </td>
 </tr>
 
@@ -66,12 +64,10 @@ This book is made available under the Creative Commons Attribution-ShareAlike 3.
 </td>
 <td width="65%">
 
-<a href="freebooks/Gnu/computer_programming_using_gnu_smalltalk.pdf">[ Computer Programming using GNU Smalltalk ]</a>
- Canol Gokel, free e-book. 2009. 
-	   
-<a href="http://www.canol.info/books/computer_programming_using_gnu_smalltalk">home page of the book to have an up to date version</a>
-.
-		
+[ Computer Programming using GNU Smalltalk ](freebooks/Gnu/computer_programming_using_gnu_smalltalk.pdf)
+By Canol Gokel, free e-book. 2009. 
+ 
+[Home page of the original version](https://www.canol.info/books/computer_programming_using_gnu_smalltalk)
 
 </td>
 </tr>
@@ -82,10 +78,9 @@ This book is made available under the Creative Commons Attribution-ShareAlike 3.
 </td>
 <td width="65%">
 
-<a href="https://hal.inria.fr/inria-00441576/document">[ Squeak by Example ]</a>
- Andrew P. Black, St&eacute;phane Ducasse, Oscar Nierstrasz and Damien Pollet. Square Bracket Associates, 2007.
-Watch out this book is old. Better read 
-<a href="http://books.pharo.org">Pharo by Example book</a>.
+[ Squeak by Example ](https://hal.inria.fr/inria-00441576/document)
+By  Andrew P. Black, St&eacute;phane Ducasse, Oscar Nierstrasz and Damien Pollet. Square Bracket Associates, 2007.
+Watch out this book is old. Better use Pharo and read [ Pharo by Example books](https://books.pharo.org).
 </td>
 </tr>
 
@@ -96,7 +91,7 @@ Watch out this book is old. Better read
 <td width="65%">
 
 [ Smalltalk design pattern companion book drafts ](freebooks/SmalltalkDesignPatternCompanion)
-Sherman Alpert, Kyle Brown, and Bobby Woolf. Addison-Wesley,  978-02011846241998.
+By Sherman Alpert, Kyle Brown, and Bobby Woolf. Addison-Wesley,  978-02011846241998.
 
 The chapters listed here are not in their final form but more in draft form. Buy the book it is really excellent. 
 </td>
@@ -108,10 +103,11 @@ The chapters listed here are not in their final form but more in draft form. Buy
 </td>
 <td width="55%">
 
-[ Smalltalk by Example: the Developer's Guide ](freebooks/ByExample/)  Alex Sharp, McGraw Hill Text; ISBN:  0079130364, 1997.
+[ Smalltalk by Example: the Developer's Guide ](freebooks/ByExample/)  
+By Alex Sharp, McGraw Hill Text; ISBN:  0079130364, 1997.
 
-This book covers all kinds of issues basic level, design, testing... I  liked it a lot. The code and the book as a single file containing everything are available. Thank again
-Lukas Renggli for his effort for converting everything from Word. Thanks a lot Alec and thanks McGraw-Hill.
+This book covers all kinds of issues basic level, design, testing... I  liked it a lot. The code and the book as a single file containing everything, are available. Thank again
+Lukas Renggli for his effort for converting everything from Word. Thanks a lot, Alec and thanks, McGraw-Hill.
 
 </td>
 </tr>
@@ -122,7 +118,7 @@ Lukas Renggli for his effort for converting everything from Word. Thanks a lot A
 </td>
 <td width="65%">
 
-[ Smalltalk With Style ](freebooks/WithStyle/SmalltalkWithStyle.pdf) by Edward Klimas, Suzanne Skublics and David A. Thomas. 
+[ Smalltalk With Style ](freebooks/WithStyle/SmalltalkWithStyle.pdf) by Edward Klimas, Suzanne Skublics, and David A. Thomas. 
 ISBN: 0-13-165549-3, Publisher: Prentice Hall, Copyright: 1996. A great and small book that everybody should read. Thanks Ed, Suzanne and Dave to give it for free. 
 </td>
 </tr>
@@ -133,11 +129,9 @@ ISBN: 0-13-165549-3, Publisher: Prentice Hall, Copyright: 1996. A great and smal
 </td>
 <td width="65%">
 
-<a href="freebooks/InsideST/InsideSmalltalk.pdf">[ Inside Smalltalk 
-   (Volume One) ]</a>
-by LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
+[ Inside Smalltalk (Volume One) ](freebooks/InsideST/InsideSmalltalk.pdf)
+By LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
 
-	   
 </td>
 </tr>
 
@@ -147,8 +141,8 @@ by LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
 </td>
 <td width="65%">
 
-<a href="freebooks/InsideST/InsideSmalltalkII.pdf">[ Inside Smalltalk (Volume Two)],</a>
-  by LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
+[ Inside Smalltalk (Volume Two)](freebooks/InsideST/InsideSmalltalkII.pdf)
+By LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
 
 </td>
 </tr>
@@ -159,11 +153,11 @@ by LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
 </td>
 <td width="65%">
 
-<a href="freebooks/LittleSmalltalk/ALittleSmalltalk.pdf">[ A Little Smalltalk ] </A>
- by Tim Budd, Addison-Wesley 1987.  
-  
+[ A Little Smalltalk ](freebooks/LittleSmalltalk/ALittleSmalltalk.pdf) 
+By Tim Budd, Addison-Wesley 1987.  
+
 Many thanks to Tim Budd and his publisher.
-		
+
 </td>
 </tr>
 
@@ -173,18 +167,20 @@ Many thanks to Tim Budd and his publisher.
 </td>
 <td width="65%">
 
-[ The Art and Science of Smalltalk ](freebooks/Art/artAdded174186187Final.pdf) by Simon Lewis, Prentice-Hall 1995-1999.  
+[ The Art and Science of Smalltalk ](freebooks/Art/artAdded174186187Final.pdf) 
+By Simon Lewis, Prentice-Hall 1995-1999.  
 
 Many thanks to the original publishers of this book at Prentice-Hall, the responsible of the HP series, and Simon Lewis.
 </td>
 </tr>
+
 <tr>
 <td width="35%">
 <img src="freebooks/PracticalSmalltalk/practical.gif" width=100>
 </td>
 <td width="65%">
 
-[ Practical Smalltalk: Using Smalltalk/V ](freebooks/PracticalSmalltalk/PracticalSmalltalk.pdf) by Dan Shafer and Dean A. Ritz, Springer Verlag; (July 1991).  
+[ Practical Smalltalk: Using Smalltalk/V ](freebooks/PracticalSmalltalk/PracticalSmalltalk.pdf) by Dan Shafer and By Dean A. Ritz, Springer Verlag; (July 1991).  
 
 Many thanks to the original publishers of this book Springer Verlag,  and Dan. Thanks.
 </td>
@@ -196,10 +192,10 @@ Many thanks to the original publishers of this book Springer Verlag,  and Dan. T
 </td>
 <td width="65%">
 
-<a href="freebooks/HopkinsHoran/HopkinsHoran.pdf">[ Smalltalk An Introduction to Application Development using VisualWorks ]</A>
- Trevor Hopkins and Bernard Horan,  Pearson Education, 1995. The answers of the exercises are at ftp://st.cs.uiuc.edu/pub/Smalltalk/books/Book_Answers.tar.gz
+[ Smalltalk An Introduction to Application Development using VisualWorks ](freebooks/HopkinsHoran/HopkinsHoran.pdf)
+By Trevor Hopkins and Bernard Horan,  Pearson Education, 1995.
 
-Many thanks to the original publishers of this book,  Pearson Education,  for permission to distribute this work, and of course the authors! 
+Many thanks to the original publishers of this book,  Pearson Education, for permission to distribute this work, and of course the authors! 
 
 </td>
 </tr>
@@ -210,24 +206,22 @@ Many thanks to the original publishers of this book,  Pearson Education,  for pe
 </td>
 <td width="55%">
 
-<a href="freebooks/STandOO/Smalltalk-and-OO.pdf"> [ Smalltalk and Object Orientation: an Introduction ] </a>
- Springer-Verlag, ISBN 3-540-76115-2, 1997.
+[ Smalltalk and Object Orientation: an Introduction ](freebooks/STandOO/Smalltalk-and-OO.pdf)
+Springer-Verlag, ISBN 3-540-76115-2, 1997.
 
-<BR>
-This book provides a good survey of Smalltalk. Some information are now obsolete 
-  but it is still worth reading. Enjoy it. Thanks John to support our request. We want to thank Springer Verlag Publishing
-for allowing us to give you this book for free.
+This book provides a good survey of Smalltalk. Information is now obsolete
+ but it is still worth reading. Enjoy it. Thanks John to support our request. We want to thank Springer Verlag Publishing for allowing us to give you this book for free.
 
 </td>
 </tr>
 
 <tr>
 <td width="35%">
-<img src="freebooks/SmalltalkVTutorial/emptyCover.gif" width=100>
+<img src="freebooks/SmalltalkVTutorial/smalltalkVtutorial.ong" width=100>
 </td>
 <td width="65%">
 
-<a href="freebooks/SmalltalkVTutorial/SmalltalkVTutorial.pdf"> [ Smalltalk V Tutorial ]</A>
+[ Smalltalk V Tutorial ](freebooks/SmalltalkVTutorial/SmalltalkVTutorial.pdf)
 
 </td>
 </tr>
@@ -238,14 +232,9 @@ for allowing us to give you this book for free.
 </td>
 <td width="55%">
 
-<a href="freebooks/Taste/"> [ The Taste of Smalltalk ] </a>
- Ted Kaehler and Dave Patterson, W W Norton Co.; ISBN: 0393955052; (May 1986).
+[ The Taste of Smalltalk ](freebooks/Taste/) Ted Kaehler and Dave Patterson, W W Norton Co.; ISBN: 0393955052; (May 1986).
 
-
-  This book is for collectors. The quotes are really excellent. 
-  
-<BR>
-All the chapters are ready (except chap.2 for now)
+This book is for collectors. The quotes are really excellent. 
 Enjoy it. (Scanned ... by Stef, Alex, Gabriela, and Lukas).
 Thanks Ted.
 
@@ -258,26 +247,15 @@ Thanks Ted.
 </td>
 <td width="55%">
 
-<a href="freebooks/Joy/">[ The Joy Of Smalltalk ]</a>
- Ivan
-Tomek (September 2000). 700 pages
-
+[The Joy Of Smalltalk](freebooks/Joy/)
+By Ivan Tomek (September 2000). 700 pages
 
 Ivan wrote this book and he gave it to the community. It contains a lot of useful material. 
-Thanks again ivan and continue to write good books. 
+Thanks again Ivan and continue to write good books. 
 
 </td>
 </tr>
 
-<!--<tr>
-<td width="45%"><img src="freebooks/SmalltalkObjectAndDesign/SmalltalkObjectAndDesign.jpg" width=100></td>
-<td width="55%">
-  <p><a href="http://books.iuniverse.com/viewbooks.asp?isbn=1583484906&page=fm1">Smalltalk,objects and design</a>
-	  Liu, iUniverse books</p>
-  
-	  </font>
-</td>
-  </tr>-->
 
 <tr>
 <td width="45%">
@@ -321,9 +299,7 @@ This book is for collectors. Thanks Adele.
 </td>
 <td width="55%">
 [ DRAFTS of Squeak, Open Personal Computing and Multimedia ](freebooks/CollectiveNBlueBook/)
- Mirror of 
-<A HREF="http://coweb.cc.gatech.edu/squeakbook/">http://coweb.cc.gatech.edu/squeakbook/</A>
- Edited by Mark Guzdial and Kim Rose. Prentice-Hall 2000. 
+Edited by Mark Guzdial and Kim Rose. Prentice-Hall 2000. 
 <BR>
 </td>
 </tr>
@@ -333,14 +309,8 @@ This book is for collectors. Thanks Adele.
 <img src="freebooks/GuzdialBookDrafts/mark1.jpg" width=100>
 </td>
 <td width="55%">
-
-<a href="freebooks/GuzdialBookDrafts/">[ DRAFS of Squeak: Open Personal Computing for Multimedia ]</a>
-
-	 taken from 
-<a href="http://www.cc.gatech.edu/~mark.guzdial/drafts/">http://www.cc.gatech.edu/~mark.guzdial/drafts/</a>
- 
-	 Mark Guzdial, Prentice-Hall 2000. It's available from Prentice-Hall. 
-
+[ DRAFS of Squeak: Open Personal Computing for Multimedia ](freebooks/GuzdialBookDrafts/)
+By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall. 
 </td>
 </tr>
 
@@ -350,19 +320,10 @@ This book is for collectors. Thanks Adele.
 </td>
 <td width="65%">
 
-<a href="freebooks/Syntax/Syntax.zip">[ (In German) Syntaxbasierte
-  Programmierwerkzeuge ]</a>
- L. Schmitz, B.G. Teubner Stuttgart 1995.  
-1996.
-
+[ (In German) Syntaxbasierte Programmierwerkzeuge ](freebooks/Syntax/Syntax.zip)
+By L. Schmitz, B.G. Teubner Stuttgart 1995.
 
 This book presents compilation techniques in german.
-	 Lothar Schmitz is still developing a free visual compiler-compiler
-	 (SIC and JACCIE).  <!-- <a
-	 href="http://ist.unibw-muenchen.de/Research/Tools/SIC">http://ist.unibw-muenchen.de/Research/Tools/SIC</a> 
-<a href="http://ist.unibw-muenchen.de/Research/Tools/JACCIE">http://ist.unibw-muenchen.de/Research/Tools/JACCIE</a> 
--->
-
 
 </td>
 </tr>
@@ -373,16 +334,9 @@ This book presents compilation techniques in german.
 </td>
 <td width="65%">
 
-<a href="freebooks/SmalltalkDE/smalltalkBuch.pdf">[ (In German) Smalltalk
-  Einfuehrung in die objekt-orientierte Programmierung ]</a>
- Peter P. Bothner, Wolf-Michael Kaehler 1999.  
-1996.
-
-
-This book presents object-oriented programming in german with VisualWorks.  
-<!-- <a href="http://e-books.zfn.uni-bremen.de/e-book-SMALLTALK.html</a>  
--->
-
+[ (In German) Smalltalk
+Einfuehrung in die objekt-orientierte Programmierung ](freebooks/SmalltalkDE/smalltalkBuch.pdf)
+By Peter P. Bothner, Wolf-Michael Kaehler 1999. This book presents object-oriented programming in german with VisualWorks.  
 
 </td>
 </tr>
@@ -393,13 +347,9 @@ This book presents object-oriented programming in german with VisualWorks.
 </td>
 <td width="55%">
 
-<a href="freebooks/Swedish/">[  (In Swedish) Objektorienterad programmering i Smalltalk ]</a>
-
-	  Bjoern Eiderbaeck, Per Haegglund, and Olle Baelter
-
-<BR>
+[  (In Swedish) Objektorienterad programmering i Smalltalk ](freebooks/Swedish/)
+By Bjoern Eiderbaeck, Per Haegglund, and Olle Baelter
 Thanks Bjoern Eiderbaeck.
-	  </font>
 </td>
 </tr>
 
@@ -409,16 +359,13 @@ Thanks Bjoern Eiderbaeck.
 </td>
 <td width="55%">
 
-<a href="freebooks/Programando/ProgramandoConSmalltalk-BORRADORFINAL07-Febrero-2006.pdf">[ (In Spanish) Programando con Smalltalk ]</a>
+[ (In Spanish) Programando con Smalltalk](freebooks/Programando/ProgramandoConSmalltalk-BORRADORFINAL07-Febrero-2006.pdf)
+by Diego Gomez Deck.
 
-	  Diego Gomez Deck
-
-<BR>
 Thanks Diego. This book is distributed under the Creative Commons license.
-	  </font>
+
 </td>
 </tr>
-
 </table>
 
 
