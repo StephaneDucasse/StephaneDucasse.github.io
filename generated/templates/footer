@@ -1,10 +1,5 @@
-<div class="footer-basic">
-<footer>
-<ul class="list-inline">
-<li class="list-inline-item"><a href="/index.html">Home</a></li>
-<li class="list-inline-item"><a href="https://pharo.org">Pharo</a></li>
-<li class="list-inline-item"><a href="https://pouet.chapril.org/@pharoproject@mastodon.social">Pharo Mastodon</a></li>
-<li class="list-inline-item"><a href="https://pouet.chapril.org/@stepharo">Stef Mastodon</a></li>
-</ul>
-</footer>
-</div>
+
+<br>
+<p>
+<a href="/index.html">Home</a> | <a href="https://pharo.org">Pharo</a> | <a href="https://pouet.chapril.org/@pharoproject@mastodon.social">Pharo Mastodon</a> | <a href="https://pouet.chapril.org/@stepharo">Stef Mastodon</a>
+

@@ -11,9 +11,12 @@
 	{{> persoDetails}}
 
 	{{{body}}}
+	
+	{{> footer }}
+	
 	</div>
 	
 	</body>
 	
-	{{> footer }}
+
 </html>
