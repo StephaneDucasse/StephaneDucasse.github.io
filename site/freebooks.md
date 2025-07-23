@@ -217,7 +217,7 @@ This book provides a good survey of Smalltalk. Information is now obsolete
 
 <tr>
 <td width="35%">
-<img src="freebooks/SmalltalkVTutorial/smalltalkVtutorial.ong" width=100>
+<img src="freebooks/SmalltalkVTutorial/smalltalkVtutorial.png" width=100>
 </td>
 <td width="65%">
 
@@ -263,7 +263,7 @@ Thanks again Ivan and continue to write good books.
 </td>
 <td width="55%">
 
-[ Smalltalk-80, Bits of History, Words of Advice ](freebooks/BitsOfHistory/)
+[ Smalltalk-80, Bits of History, Words of Advice ](freebooks/BitsOfHistory/BitsOfHistory.pdf)
 By Glen Krasner, Editor. ISBN 0-201-11669-3. 344 pp. 1983
 
 This book is for collectors. Thanks Glenn.
