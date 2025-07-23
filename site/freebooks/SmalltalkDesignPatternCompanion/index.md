@@ -4,7 +4,7 @@
 "publishDate": "2021-02-01"
 }
 
-Here are some draft chapter about Smalltalk Design Pattern Companion 
+Here are some draft chapters about Smalltalk Design Pattern Companion 
 - [Builder](builder.pdf)
 - [Chain of Responsibility](chain.pdf)
 - [Composite](composite.pdf)

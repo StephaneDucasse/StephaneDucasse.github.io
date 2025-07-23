@@ -103,11 +103,11 @@ The chapters listed here are not in their final form but more in draft form. Buy
 </td>
 <td width="55%">
 
-[ Smalltalk by Example: the Developer's Guide ](freebooks/ByExample/)  
+[ Smalltalk by Example: the Developer's Guide ](freebooks/ByExample/SmalltalkByExampleNewRelease.pdf)  
 By Alex Sharp, McGraw Hill Text; ISBN:  0079130364, 1997.
 
 This book covers all kinds of issues basic level, design, testing... I  liked it a lot. The code and the book as a single file containing everything, are available. Thank again
-Lukas Renggli for his effort for converting everything from Word. Thanks a lot, Alec and thanks, McGraw-Hill.
+Lukas Renggli for his effort for converting everything from Word. Thanks a lot Alec and McGraw-Hill.
 
 </td>
 </tr>
@@ -313,6 +313,21 @@ Edited by Mark Guzdial and Kim Rose. Prentice-Hall 2000.
 By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall. 
 </td>
 </tr>
+
+
+<tr>
+<td width="45%">
+<img src="freebooks/VisualAge/VisualAgeHandbookV1.png" width=100>
+</td>
+<td width="55%">
+[VisualAge Handbook V1](freebooks/VisualAge/VisualAgeHandbookV1.pdf)
+
+</td>
+</tr>
+
+
+
+
 
 <tr>
 <td width="35%">
