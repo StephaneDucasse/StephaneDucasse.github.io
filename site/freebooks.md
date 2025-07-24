@@ -275,7 +275,7 @@ This book is for collectors. Thanks Glenn.
 <img src="freebooks/BlueBook/blueBook.jpg" width=100>
 </td>
 <td width="55%">
-[ Smalltalk-80: The Language and its Implementation ](freebooks/BlueBook/)
+[ Smalltalk-80: The Language and its Implementation ](freebooks/BlueBook/Bluebook.pdf)
 By Adele Goldberg and DavidRobson; Xerox Palo Alto Research Center ISBN 0-201-11371-6. 344 pp. 1983
 </td>
 </tr>
@@ -325,7 +325,15 @@ By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall.
 </td>
 </tr>
 
+<tr>
+<td width="45%">
+<img src="freebooks/ST80/ST80-MG.png" width=100>
+</td>
+<td width="55%">
+[VisualAge Handbook V1](freebooks/ST80/Smalltalk-80-MevelGueguen-MacmillanComputerScienceSeries-1987.pdf)
 
+</td>
+</tr>
 
 
 
