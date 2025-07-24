@@ -18,7 +18,7 @@ You can also support me.
 </form>
 
 
-## Recent Pharo books
+# Most recent Pharo books
 
 You can find a lot more recent and free books (Spec, Pharo by Example Updated, Pharo with Style, Learning OOD with TDD, and many more) at http://books.pharo.org. 
 
@@ -27,7 +27,7 @@ Most of the new books around Pharo are hosted at http://github.com/SquareBracket
 
 
 
-## Some other books
+# Some recent books
 
 If you have more books and you want to get them archived and listed here please contact me.
 
@@ -86,14 +86,74 @@ Watch out this book is old. Better use Pharo and read [ Pharo by Example books](
 </td>
 </tr>
 
+</table>
 
+# Old nice books on Smalltalk
+
+<table>
+
+<tr>
+<td width="45%">
+<img src="freebooks/BitsOfHistory/BitsOfHistory.gif" width=100>
+</td>
+<td width="55%">
+
+[ Smalltalk-80, Bits of History, Words of Advice ](freebooks/BitsOfHistory/BitsOfHistory.pdf)
+By Glen Krasner, Editor. ISBN 0-201-11669-3. 344 pp. 1983
+
+This book is for collectors. Thanks Glenn.
+</td>
+</tr>
+
+<tr>
+<td width="45%">
+<img src="freebooks/BlueBook/blueBook.jpg" width=100>
+</td>
+<td width="55%">
+[ Smalltalk-80: The Language and its Implementation ](freebooks/BlueBook/Bluebook.pdf)
+By Adele Goldberg and DavidRobson; Xerox Palo Alto Research Center ISBN 0-201-11371-6. 344 pp. 1983
+</td>
+</tr>
+
+<tr>
+<td width="45%">
+<img src="freebooks/TheInteractiveProgrammingEnv/TheInteractiveProgrammingEnv.gif" width=100>
+</td>
+
+<td width="55%">
+[ Smalltalk-80, The Interactive Programming Environment](freebooks/TheInteractiveProgrammingEnv/TheInteractiveProgrammingEnv.pdf)
+By Adele Goldberg. ISBN  0201113724. 560 pp. 1983
+
+This book is for collectors. Thanks Adele.
+</td>
+</tr>
+
+
+<tr>
+<td width="35%">
+<img src="freebooks/InsideST/InsideSmalltalkV1.png" width=100>
+</td>
+<td width="65%">
+[ Inside Smalltalk (Volume One) ](freebooks/InsideST/InsideSmalltalk.pdf)
+By LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
+</td>
+</tr>
+
+<tr>
+<td width="35%">
+<img src="freebooks/InsideST/InsideSmalltalkV2.png" width=100>
+</td>
+<td width="65%">
+[ Inside Smalltalk (Volume Two)](freebooks/InsideST/InsideSmalltalkII.pdf)
+By LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
+</td>
+</tr>
 
 <tr>
 <td width="45%">
 <img src="freebooks/ByExample/byExample.gif" width=100>
 </td>
 <td width="55%">
-
 [ Smalltalk by Example: the Developer's Guide ](freebooks/ByExample/SmalltalkByExampleNewRelease.pdf)  
 By Alex Sharp, McGraw Hill Text; ISBN:  0079130364, 1997.
 
@@ -112,29 +172,7 @@ ISBN: 0-13-165549-3, Publisher: Prentice Hall, Copyright: 1996. A great and smal
 </td>
 </tr>
 
-<tr>
-<td width="35%">
-<img src="freebooks/InsideST/InsideSmalltalkV1.png" width=100>
-</td>
-<td width="65%">
 
-[ Inside Smalltalk (Volume One) ](freebooks/InsideST/InsideSmalltalk.pdf)
-By LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
-
-</td>
-</tr>
-
-<tr>
-<td width="35%">
-<img src="freebooks/InsideST/InsideSmalltalkV2.png" width=100>
-</td>
-<td width="65%">
-
-[ Inside Smalltalk (Volume Two)](freebooks/InsideST/InsideSmalltalkII.pdf)
-By LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
-
-</td>
-</tr>
 
 <tr>
 <td width="35%">
@@ -241,41 +279,6 @@ Thanks again Ivan and continue to write good books.
 </tr>
 
 
-<tr>
-<td width="45%">
-<img src="freebooks/BitsOfHistory/BitsOfHistory.gif" width=100>
-</td>
-<td width="55%">
-
-[ Smalltalk-80, Bits of History, Words of Advice ](freebooks/BitsOfHistory/BitsOfHistory.pdf)
-By Glen Krasner, Editor. ISBN 0-201-11669-3. 344 pp. 1983
-
-This book is for collectors. Thanks Glenn.
-</td>
-</tr>
-
-<tr>
-<td width="45%">
-<img src="freebooks/BlueBook/blueBook.jpg" width=100>
-</td>
-<td width="55%">
-[ Smalltalk-80: The Language and its Implementation ](freebooks/BlueBook/Bluebook.pdf)
-By Adele Goldberg and DavidRobson; Xerox Palo Alto Research Center ISBN 0-201-11371-6. 344 pp. 1983
-</td>
-</tr>
-
-<tr>
-<td width="45%">
-<img src="freebooks/TheInteractiveProgrammingEnv/TheInteractiveProgrammingEnv.gif" width=100>
-</td>
-
-<td width="55%">
-[ Smalltalk-80, The Interactive Programming Environment](freebooks/TheInteractiveProgrammingEnv/TheInteractiveProgrammingEnv.pdf)
-By Adele Goldberg. ISBN  0201113724. 560 pp. 1983
-
-This book is for collectors. Thanks Adele.
-</td>
-</tr>
 
 
 
@@ -324,10 +327,24 @@ This book is for collectors. Thanks Adele.
 [ Smalltalk, Objects, and Design ](freebooks/SmalltalkObjectsAndDesign/SmalltalkObjectsAndDesign--ChamondLiu--9780132683357.pdf)
 </td>
 </tr>
+
+<tr>
+<td width="45%">
+<img src="freebooks/BestSmalltalkPractices/BestSmalltalkPractice.jpg" width=100>
+</td>
+<td width="55%">
+[ Smalltalk, Objects, and Design ](freebooks/BestSmalltalkPractices/Smalltalkbestpracticepatterns-BeckKent-- 1997--PrenticeHall--9780132852104.pdf)
+</td>
+</tr>
+
+
+
 </table>
 
 
-## Drafts of books
+# Drafts of books
+
+Here are a couple of book drafts.
 
 <table>
 
