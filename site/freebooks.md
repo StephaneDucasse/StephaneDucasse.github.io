@@ -346,6 +346,17 @@ By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall.
 
 <tr>
 <td width="45%">
+<img src="freebooks/Tektronic/tektronic.png" width=100>
+</td>
+<td width="55%">
+[ The 4404 Tektronic manual ](freebooks/Tektronic/4404_Introduction_to_the_Smalltalk-80_System_Aug85.pdf)
+
+</td>
+</tr>
+
+
+<tr>
+<td width="45%">
 <img src="freebooks/Decouvrir/decouvrir.png" width=100>
 </td>
 <td width="55%">
