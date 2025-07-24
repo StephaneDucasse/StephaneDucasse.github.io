@@ -335,7 +335,23 @@ By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall.
 </td>
 </tr>
 
+<tr>
+<td width="45%">
+<img src="freebooks/ObjectOrientedEngineering/OOEngineering.png" width=100>
+</td>
+<td width="55%">
+[ Object Oriented Engineering ](freebooks/ObjectOrientedEngineering/Object-OrientedEngineering-Building EngineeringSystems--JohnRBourne--9780256112108.pdf)
+</td>
+</tr>
 
+<tr>
+<td width="45%">
+<img src="freebooks/Decouvrir/decouvrir.png" width=100>
+</td>
+<td width="55%">
+[Decouvrir la programmation à objets avec Smalltalk-V](freebooks/Decouvrir/Decouvrir-Masson.pdf)
+</td>
+</tr>
 
 <tr>
 <td width="35%">
