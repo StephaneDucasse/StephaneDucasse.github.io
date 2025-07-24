@@ -331,6 +331,15 @@ By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall.
 </td>
 <td width="55%">
 [ Smalltalk-80 by Mevel and Gueguen ](freebooks/ST80/Smalltalk-80-MevelGueguen-MacmillanComputerScienceSeries-1987.pdf)
+</td>
+</tr>
+
+<tr>
+<td width="45%">
+<img src="freebooks/SmalltalkObjectsAndDesign/SmalltalkObjectAndDesign.png" width=100>
+</td>
+<td width="55%">
+[ Smalltalk, Objects, and Design ](freebooks/SmalltalkObjectsAndDesign/SmalltalkObjectsAndDesign--ChamondLiu--9780132683357.pdf)
 
 </td>
 </tr>
