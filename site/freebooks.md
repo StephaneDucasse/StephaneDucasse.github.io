@@ -22,7 +22,9 @@ You can also support me.
 
 You can find a lot more recent and free books (Spec, Pharo by Example Updated, Pharo with Style, Learning OOD with TDD, and many more) at http://books.pharo.org. 
 
-Most the new books around Pharo are hosted at http://github.com/SquareBracketAssociates and each project has an automatic build with the latest PDF version.
+Most of the new books around Pharo are hosted at http://github.com/SquareBracketAssociates and each project has an automatic build with the latest PDF version.
+
+
 
 
 ## Some other books
@@ -84,18 +86,7 @@ Watch out this book is old. Better use Pharo and read [ Pharo by Example books](
 </td>
 </tr>
 
-<tr>
-<td width="35%">
-<img src="freebooks/SmalltalkDesignPatternCompanion/coversm.gif" width=100>
-</td>
-<td width="65%">
 
-[ Smalltalk design pattern companion book drafts ](freebooks/SmalltalkDesignPatternCompanion)
-By Sherman Alpert, Kyle Brown, and Bobby Woolf. Addison-Wesley,  978-02011846241998.
-
-The chapters listed here are not in their final form but more in draft form. Buy the book it is really excellent. 
-</td>
-</tr>
 
 <tr>
 <td width="45%">
@@ -108,7 +99,6 @@ By Alex Sharp, McGraw Hill Text; ISBN:  0079130364, 1997.
 
 This book covers all kinds of issues basic level, design, testing... I  liked it a lot. The code and the book as a single file containing everything, are available. Thank again
 Lukas Renggli for his effort for converting everything from Word. Thanks a lot Alec and McGraw-Hill.
-
 </td>
 </tr>
 
@@ -117,7 +107,6 @@ Lukas Renggli for his effort for converting everything from Word. Thanks a lot A
 <img src="freebooks/WithStyle/WithStyle.gif" width=100>
 </td>
 <td width="65%">
-
 [ Smalltalk With Style ](freebooks/WithStyle/SmalltalkWithStyle.pdf) by Edward Klimas, Suzanne Skublics, and David A. Thomas. 
 ISBN: 0-13-165549-3, Publisher: Prentice Hall, Copyright: 1996. A great and small book that everybody should read. Thanks Ed, Suzanne and Dave to give it for free. 
 </td>
@@ -157,7 +146,6 @@ By LaLonde, Wilf R. and Pugh, John R., Prentice-Hall, 1990, ISBN 0-13-468414-1.
 By Tim Budd, Addison-Wesley 1987.  
 
 Many thanks to Tim Budd and his publisher.
-
 </td>
 </tr>
 
@@ -196,7 +184,6 @@ Many thanks to the original publishers of this book Springer Verlag,  and Dan. T
 By Trevor Hopkins and Bernard Horan,  Pearson Education, 1995.
 
 Many thanks to the original publishers of this book,  Pearson Education, for permission to distribute this work, and of course the authors! 
-
 </td>
 </tr>
 
@@ -211,7 +198,6 @@ Springer-Verlag, ISBN 3-540-76115-2, 1997.
 
 This book provides a good survey of Smalltalk. Information is now obsolete
  but it is still worth reading. Enjoy it. Thanks John to support our request. We want to thank Springer Verlag Publishing for allowing us to give you this book for free.
-
 </td>
 </tr>
 
@@ -220,9 +206,7 @@ This book provides a good survey of Smalltalk. Information is now obsolete
 <img src="freebooks/SmalltalkVTutorial/smalltalkVtutorial.png" width=100>
 </td>
 <td width="65%">
-
 [ Smalltalk V Tutorial ](freebooks/SmalltalkVTutorial/SmalltalkVTutorial.pdf)
-
 </td>
 </tr>
 
@@ -293,6 +277,73 @@ This book is for collectors. Thanks Adele.
 </td>
 </tr>
 
+
+
+<tr>
+<td width="45%">
+<img src="freebooks/VisualAge/VisualAgeHandbookV1.png" width=100>
+</td>
+<td width="55%">
+[VisualAge Handbook V1](freebooks/VisualAge/VisualAgeHandbookV1.pdf)
+</td>
+</tr>
+
+<tr>
+<td width="45%">
+<img src="freebooks/ST80/ST80-MG.png" width=100>
+</td>
+<td width="55%">
+[ Smalltalk-80 by Mevel and Gueguen ](freebooks/ST80/Smalltalk-80-MevelGueguen-MacmillanComputerScienceSeries-1987.pdf)
+</td>
+</tr>
+
+
+<tr>
+<td width="45%">
+<img src="freebooks/ObjectOrientedEngineering/OOEngineering.png" width=100>
+</td>
+<td width="55%">
+[ Object Oriented Engineering ](freebooks/ObjectOrientedEngineering/Object-OrientedEngineering-Building EngineeringSystems--JohnRBourne--9780256112108.pdf)
+</td>
+</tr>
+
+<tr>
+<td width="45%">
+<img src="freebooks/Tektronic/tektronic.png" width=100>
+</td>
+<td width="55%">
+[ The 4404 Tektronic manual ](freebooks/Tektronic/4404_Introduction_to_the_Smalltalk-80_System_Aug85.pdf)
+</td>
+</tr>
+
+<tr>
+<td width="45%">
+<img src="freebooks/SmalltalkObjectsAndDesign/SmalltalkObjectAndDesign.png" width=100>
+</td>
+<td width="55%">
+[ Smalltalk, Objects, and Design ](freebooks/SmalltalkObjectsAndDesign/SmalltalkObjectsAndDesign--ChamondLiu--9780132683357.pdf)
+</td>
+</tr>
+</table>
+
+
+## Drafts of books
+
+<table>
+
+<tr>
+<td width="35%">
+<img src="freebooks/SmalltalkDesignPatternCompanion/coversm.gif" width=100>
+</td>
+<td width="65%">
+
+[ Smalltalk design pattern companion book drafts ](freebooks/SmalltalkDesignPatternCompanion)
+By Sherman Alpert, Kyle Brown, and Bobby Woolf. Addison-Wesley,  978-02011846241998.
+
+The chapters listed here are not in their final form but more in draft form. Buy the book it is really excellent. 
+</td>
+</tr>
+
 <tr>
 <td width="45%">
 <img src="freebooks/CollectiveNBlueBook/small-bluebook-cover.jpg" width=100>
@@ -313,57 +364,11 @@ Edited by Mark Guzdial and Kim Rose. Prentice-Hall 2000.
 By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall. 
 </td>
 </tr>
+</table>
 
+## Non english books
 
-<tr>
-<td width="45%">
-<img src="freebooks/VisualAge/VisualAgeHandbookV1.png" width=100>
-</td>
-<td width="55%">
-[VisualAge Handbook V1](freebooks/VisualAge/VisualAgeHandbookV1.pdf)
-
-</td>
-</tr>
-
-<tr>
-<td width="45%">
-<img src="freebooks/ST80/ST80-MG.png" width=100>
-</td>
-<td width="55%">
-[ Smalltalk-80 by Mevel and Gueguen ](freebooks/ST80/Smalltalk-80-MevelGueguen-MacmillanComputerScienceSeries-1987.pdf)
-</td>
-</tr>
-
-<tr>
-<td width="45%">
-<img src="freebooks/SmalltalkObjectsAndDesign/SmalltalkObjectAndDesign.png" width=100>
-</td>
-<td width="55%">
-[ Smalltalk, Objects, and Design ](freebooks/SmalltalkObjectsAndDesign/SmalltalkObjectsAndDesign--ChamondLiu--9780132683357.pdf)
-
-</td>
-</tr>
-
-<tr>
-<td width="45%">
-<img src="freebooks/ObjectOrientedEngineering/OOEngineering.png" width=100>
-</td>
-<td width="55%">
-[ Object Oriented Engineering ](freebooks/ObjectOrientedEngineering/Object-OrientedEngineering-Building EngineeringSystems--JohnRBourne--9780256112108.pdf)
-</td>
-</tr>
-
-<tr>
-<td width="45%">
-<img src="freebooks/Tektronic/tektronic.png" width=100>
-</td>
-<td width="55%">
-[ The 4404 Tektronic manual ](freebooks/Tektronic/4404_Introduction_to_the_Smalltalk-80_System_Aug85.pdf)
-
-</td>
-</tr>
-
-
+<table>
 <tr>
 <td width="45%">
 <img src="freebooks/Decouvrir/decouvrir.png" width=100>
@@ -383,7 +388,6 @@ By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall.
 By L. Schmitz, B.G. Teubner Stuttgart 1995.
 
 This book presents compilation techniques in german.
-
 </td>
 </tr>
 
@@ -396,7 +400,6 @@ This book presents compilation techniques in german.
 [ (In German) Smalltalk
 Einfuehrung in die objekt-orientierte Programmierung ](freebooks/SmalltalkDE/smalltalkBuch.pdf)
 By Peter P. Bothner, Wolf-Michael Kaehler 1999. This book presents object-oriented programming in german with VisualWorks.  
-
 </td>
 </tr>
 
@@ -405,7 +408,6 @@ By Peter P. Bothner, Wolf-Michael Kaehler 1999. This book presents object-orient
 <img src="freebooks/emptyCover.gif" width=100>
 </td>
 <td width="55%">
-
 [  (In Swedish) Objektorienterad programmering i Smalltalk ](freebooks/Swedish/)
 By Bjoern Eiderbaeck, Per Haegglund, and Olle Baelter
 Thanks Bjoern Eiderbaeck.
@@ -426,7 +428,6 @@ Thanks Diego. This book is distributed under the Creative Commons license.
 </td>
 </tr>
 </table>
-
 
 ## Old Articles
 
