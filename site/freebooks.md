@@ -330,7 +330,7 @@ By Mark Guzdial, Prentice-Hall, 2000. It's available from Prentice-Hall.
 <img src="freebooks/ST80/ST80-MG.png" width=100>
 </td>
 <td width="55%">
-[VisualAge Handbook V1](freebooks/ST80/Smalltalk-80-MevelGueguen-MacmillanComputerScienceSeries-1987.pdf)
+[ Smalltalk-80 by Mevel and Gueguen ](freebooks/ST80/Smalltalk-80-MevelGueguen-MacmillanComputerScienceSeries-1987.pdf)
 
 </td>
 </tr>
