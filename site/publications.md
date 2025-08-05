@@ -3,9 +3,9 @@
 "layout" : "index",
 "plugin" : [ "kind" : "publicationList",
 	"pluginSpec" : [ 
-	#authorMatchingString : 'Ducasse',
-	#keysOfBlackListedEntries : [ ],
-	#bibFilename : 'rmod.bib' ] ],
+		#authorMatchingString : 'Ducasse',
+		#keysOfBlackListedEntries : [ ],
+		#bibFilename: 'rmod.bib' ] ],
 "publishDate" : "2025-06-01"
 }
 
