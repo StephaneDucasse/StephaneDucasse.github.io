@@ -1,0 +1,1128 @@
+THERE_BE_DRAGONS_HERE
+Message not understood: ByteSymbol >> #buildStrategy:
+5 August 2025 11:50:24.801004 am
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+v10.3.4+0.62881b73c - Commit: 62881b73c - Date: 2025-04-03 10:29:49 +0200
+
+Image: Pharo13.1.0SNAPSHOT [Build information: Pharo-13.1.0+SNAPSHOT.build.695.sha.6103a275f1acabf1b4db65b335ed82e6dd9f1e87 (64 Bit)]
+
+ByteSymbol(Object)>>doesNotUnderstand: #buildStrategy:
+	Receiver: #pdf
+	Arguments and temporary variables: 
+		aMessage: 	buildStrategy: a PRBuildListStrategy
+		exception: 	Instance of ByteSymbol did not understand #buildStrategy:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+#pdf
+
+ClapPillarBuildCommand>>execute
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+		strategy: 	a PRBuildListStrategy
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailur[..]
+	Arguments and temporary variables: 
+		exception: 	Exit
+		handlerAction: 	[ :exception |
+			exitException := exception.
+			exitBlock v[..]
+	Receiver's instance variables: 
+		outerContext: 	ClapContext>>executeToExit:
+		compiledBlock: 	a CompiledBlock: [
+		self rememberSession.
+		self ifMismatch[..]
+		numArgs: 	0
+		receiver: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'p[..]
+
+
+ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+	Receiver: a ClapCommandLineHandler
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a WorkingSession
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+	Receiver: [
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments[..]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		outerContext: 	ClapCommandLineHandler>>activate
+		compiledBlock: 	a CompiledBlock: [
+		ClapContext withPragmaCommands
+			beObe[..]
+		numArgs: 	0
+		receiver: 	a ClapCommandLineHandler
+
+
+
+--- The full stack ---
+ByteSymbol(Object)>>doesNotUnderstand: #buildStrategy:
+ClapPillarBuildCommand>>execute
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+FullBlockClosure(BlockClosure)>>on:do:
+ClapContext>>executeToExit:
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+
+5 August 2025 11:52:50.726457 am
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+v10.3.4+0.62881b73c - Commit: 62881b73c - Date: 2025-04-03 10:29:49 +0200
+
+Image: Pharo13.1.0SNAPSHOT [Build information: Pharo-13.1.0+SNAPSHOT.build.695.sha.6103a275f1acabf1b4db65b335ed82e6dd9f1e87 (64 Bit)]
+
+PRPdfOutput class(Object)>>halt
+	Receiver: PRPdfOutput
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		superclass: 	PRWritingTarget
+		methodDict: 	a MethodDictionary(#documentFor:->PRPdfOutput>>#documentFor: #e[..]
+		format: 	65538
+		layout: 	a FixedLayout
+		protocols: 	an Array(Protocol (building) - 1 selector(s) Protocol (accessing[..]
+		subclasses: 	nil
+		name: 	#PRPdfOutput
+		classPool: 	nil
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	nil
+		packageTag: 	a PackageTag(Uncategorized)
+
+
+PRPdfOutput class>>new
+	Receiver: PRPdfOutput
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		superclass: 	PRWritingTarget
+		methodDict: 	a MethodDictionary(#documentFor:->PRPdfOutput>>#documentFor: #e[..]
+		format: 	65538
+		layout: 	a FixedLayout
+		protocols: 	an Array(Protocol (building) - 1 selector(s) Protocol (accessing[..]
+		subclasses: 	nil
+		name: 	#PRPdfOutput
+		classPool: 	nil
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	nil
+		packageTag: 	a PackageTag(Uncategorized)
+
+
+ClapPillarBuildCommand>>execute
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+		strategy: 	a PRBuildListStrategy
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailur[..]
+	Arguments and temporary variables: 
+		exception: 	Exit
+		handlerAction: 	[ :exception |
+			exitException := exception.
+			exitBlock v[..]
+	Receiver's instance variables: 
+		outerContext: 	ClapContext>>executeToExit:
+		compiledBlock: 	a CompiledBlock: [
+		self rememberSession.
+		self ifMismatch[..]
+		numArgs: 	0
+		receiver: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'p[..]
+
+
+ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+	Receiver: a ClapCommandLineHandler
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a WorkingSession
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+	Receiver: [
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments[..]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		outerContext: 	ClapCommandLineHandler>>activate
+		compiledBlock: 	a CompiledBlock: [
+		ClapContext withPragmaCommands
+			beObe[..]
+		numArgs: 	0
+		receiver: 	a ClapCommandLineHandler
+
+
+
+--- The full stack ---
+PRPdfOutput class(Object)>>halt
+PRPdfOutput class>>new
+ClapPillarBuildCommand>>execute
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+FullBlockClosure(BlockClosure)>>on:do:
+ClapContext>>executeToExit:
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Message not understood: ByteSymbol >> #buildStrategy:
+5 August 2025 11:53:17.739411 am
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+v10.3.4+0.62881b73c - Commit: 62881b73c - Date: 2025-04-03 10:29:49 +0200
+
+Image: Pharo13.1.0SNAPSHOT [Build information: Pharo-13.1.0+SNAPSHOT.build.695.sha.6103a275f1acabf1b4db65b335ed82e6dd9f1e87 (64 Bit)]
+
+ByteSymbol(Object)>>doesNotUnderstand: #buildStrategy:
+	Receiver: #pdf
+	Arguments and temporary variables: 
+		aMessage: 	buildStrategy: a PRBuildListStrategy
+		exception: 	Instance of ByteSymbol did not understand #buildStrategy:
+		resumeValue: 	nil
+	Receiver's instance variables: 
+#pdf
+
+ClapPillarBuildCommand>>execute
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+		strategy: 	a PRBuildListStrategy
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailur[..]
+	Arguments and temporary variables: 
+		exception: 	Exit
+		handlerAction: 	[ :exception |
+			exitException := exception.
+			exitBlock v[..]
+	Receiver's instance variables: 
+		outerContext: 	ClapContext>>executeToExit:
+		compiledBlock: 	a CompiledBlock: [
+		self rememberSession.
+		self ifMismatch[..]
+		numArgs: 	0
+		receiver: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'p[..]
+
+
+ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+	Receiver: a ClapCommandLineHandler
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a WorkingSession
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+	Receiver: [
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments[..]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		outerContext: 	ClapCommandLineHandler>>activate
+		compiledBlock: 	a CompiledBlock: [
+		ClapContext withPragmaCommands
+			beObe[..]
+		numArgs: 	0
+		receiver: 	a ClapCommandLineHandler
+
+
+
+--- The full stack ---
+ByteSymbol(Object)>>doesNotUnderstand: #buildStrategy:
+ClapPillarBuildCommand>>execute
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+FullBlockClosure(BlockClosure)>>on:do:
+ClapContext>>executeToExit:
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Message not understood: ByteSymbol >> #new
+5 August 2025 11:53:27.319833 am
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+v10.3.4+0.62881b73c - Commit: 62881b73c - Date: 2025-04-03 10:29:49 +0200
+
+Image: Pharo13.1.0SNAPSHOT [Build information: Pharo-13.1.0+SNAPSHOT.build.695.sha.6103a275f1acabf1b4db65b335ed82e6dd9f1e87 (64 Bit)]
+
+ByteSymbol(Object)>>doesNotUnderstand: #new
+	Receiver: #pdf
+	Arguments and temporary variables: 
+		aMessage: 	new
+		exception: 	Instance of ByteSymbol did not understand #new
+		resumeValue: 	nil
+	Receiver's instance variables: 
+#pdf
+
+ClapPillarBuildCommand>>execute
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+		strategy: 	a PRBuildListStrategy
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailur[..]
+	Arguments and temporary variables: 
+		exception: 	Exit
+		handlerAction: 	[ :exception |
+			exitException := exception.
+			exitBlock v[..]
+	Receiver's instance variables: 
+		outerContext: 	ClapContext>>executeToExit:
+		compiledBlock: 	a CompiledBlock: [
+		self rememberSession.
+		self ifMismatch[..]
+		numArgs: 	0
+		receiver: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'p[..]
+
+
+ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+	Receiver: a ClapCommandLineHandler
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a WorkingSession
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+	Receiver: [
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments[..]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		outerContext: 	ClapCommandLineHandler>>activate
+		compiledBlock: 	a CompiledBlock: [
+		ClapContext withPragmaCommands
+			beObe[..]
+		numArgs: 	0
+		receiver: 	a ClapCommandLineHandler
+
+
+
+--- The full stack ---
+ByteSymbol(Object)>>doesNotUnderstand: #new
+ClapPillarBuildCommand>>execute
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+FullBlockClosure(BlockClosure)>>on:do:
+ClapContext>>executeToExit:
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+Message not understood: ByteSymbol >> #new
+5 August 2025 11:53:42.423678 am
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+v10.3.4+0.62881b73c - Commit: 62881b73c - Date: 2025-04-03 10:29:49 +0200
+
+Image: Pharo13.1.0SNAPSHOT [Build information: Pharo-13.1.0+SNAPSHOT.build.695.sha.6103a275f1acabf1b4db65b335ed82e6dd9f1e87 (64 Bit)]
+
+ByteSymbol(Object)>>doesNotUnderstand: #new
+	Receiver: #pdf
+	Arguments and temporary variables: 
+		aMessage: 	new
+		exception: 	Instance of ByteSymbol did not understand #new
+		resumeValue: 	nil
+	Receiver's instance variables: 
+#pdf
+
+ClapPillarBuildCommand>>execute
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+		strategy: 	a PRBuildListStrategy
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailur[..]
+	Arguments and temporary variables: 
+		exception: 	Exit
+		handlerAction: 	[ :exception |
+			exitException := exception.
+			exitBlock v[..]
+	Receiver's instance variables: 
+		outerContext: 	ClapContext>>executeToExit:
+		compiledBlock: 	a CompiledBlock: [
+		self rememberSession.
+		self ifMismatch[..]
+		numArgs: 	0
+		receiver: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'p[..]
+
+
+ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+	Receiver: a ClapCommandLineHandler
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a WorkingSession
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+	Receiver: [
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments[..]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		outerContext: 	ClapCommandLineHandler>>activate
+		compiledBlock: 	a CompiledBlock: [
+		ClapContext withPragmaCommands
+			beObe[..]
+		numArgs: 	0
+		receiver: 	a ClapCommandLineHandler
+
+
+
+--- The full stack ---
+ByteSymbol(Object)>>doesNotUnderstand: #new
+ClapPillarBuildCommand>>execute
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+FullBlockClosure(BlockClosure)>>on:do:
+ClapContext>>executeToExit:
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+
+5 August 2025 11:55:17.024417 am
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+v10.3.4+0.62881b73c - Commit: 62881b73c - Date: 2025-04-03 10:29:49 +0200
+
+Image: Pharo13.1.0SNAPSHOT [Build information: Pharo-13.1.0+SNAPSHOT.build.695.sha.6103a275f1acabf1b4db65b335ed82e6dd9f1e87 (64 Bit)]
+
+PRPdfOutput class(Object)>>halt
+	Receiver: PRPdfOutput
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		superclass: 	PRWritingTarget
+		methodDict: 	a MethodDictionary(#documentFor:->PRPdfOutput>>#documentFor: #e[..]
+		format: 	65538
+		layout: 	a FixedLayout
+		protocols: 	an Array(Protocol (building) - 1 selector(s) Protocol (accessing[..]
+		subclasses: 	nil
+		name: 	#PRPdfOutput
+		classPool: 	nil
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	nil
+		packageTag: 	a PackageTag(Uncategorized)
+
+
+PRPdfOutput class>>new
+	Receiver: PRPdfOutput
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		superclass: 	PRWritingTarget
+		methodDict: 	a MethodDictionary(#documentFor:->PRPdfOutput>>#documentFor: #e[..]
+		format: 	65538
+		layout: 	a FixedLayout
+		protocols: 	an Array(Protocol (building) - 1 selector(s) Protocol (accessing[..]
+		subclasses: 	nil
+		name: 	#PRPdfOutput
+		classPool: 	nil
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemEnvironment(lots of globals)
+		commentSourcePointer: 	nil
+		packageTag: 	a PackageTag(Uncategorized)
+
+
+ClapPillarBuildCommand>>execute
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+		strategy: 	a PRBuildListStrategy
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailur[..]
+	Arguments and temporary variables: 
+		exception: 	Exit
+		handlerAction: 	[ :exception |
+			exitException := exception.
+			exitBlock v[..]
+	Receiver's instance variables: 
+		outerContext: 	ClapContext>>executeToExit:
+		compiledBlock: 	a CompiledBlock: [
+		self rememberSession.
+		self ifMismatch[..]
+		numArgs: 	0
+		receiver: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'p[..]
+
+
+ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+	Receiver: a ClapCommandLineHandler
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a WorkingSession
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+	Receiver: [
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments[..]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		outerContext: 	ClapCommandLineHandler>>activate
+		compiledBlock: 	a CompiledBlock: [
+		ClapContext withPragmaCommands
+			beObe[..]
+		numArgs: 	0
+		receiver: 	a ClapCommandLineHandler
+
+
+
+--- The full stack ---
+PRPdfOutput class(Object)>>halt
+PRPdfOutput class>>new
+ClapPillarBuildCommand>>execute
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+FullBlockClosure(BlockClosure)>>on:do:
+ClapContext>>executeToExit:
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
+THERE_BE_DRAGONS_HERE
+receiver of "contributeToPipelineBuilding:" is nil
+5 August 2025 12:07:43.145582 pm
+
+VM: Mac OS - arm64 - 1000 - CoInterpreter VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+StackToRegisterMappingCogit VMMaker-tonel.1 uuid: cd2868a3-3dee-0d00-bd87-dbbf06d86bc4 Apr  3 2025
+v10.3.4+0.62881b73c - Commit: 62881b73c - Date: 2025-04-03 10:29:49 +0200
+
+Image: Pharo13.1.0SNAPSHOT [Build information: Pharo-13.1.0+SNAPSHOT.build.695.sha.6103a275f1acabf1b4db65b335ed82e6dd9f1e87 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #contributeToPipelineBuilding:
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	contributeToPipelineBuilding: a PRPdfOutput
+		exception: 	#contributeToPipelineBuilding: was sent to nil
+		resumeValue: 	nil
+	Receiver's instance variables: 
+nil
+
+PRPdfOutput(PRTarget)>>buildOn:
+	Receiver: a PRPdfOutput
+	Arguments and temporary variables: 
+		status: 	a PRSuccess
+		aProject: 	nil
+	Receiver's instance variables: 
+		buildStrategy: 	a PRBuildListStrategy
+		transformations: 	a Set()
+
+
+ClapPillarBuildCommand>>execute
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+		strategy: 	a PRBuildListStrategy
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+	Receiver: a ClapPillarBuildCommand
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		context: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pd[..]
+		project: 	nil
+
+
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+FullBlockClosure(BlockClosure)>>on:do:
+	Receiver: [
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailur[..]
+	Arguments and temporary variables: 
+		exception: 	Exit
+		handlerAction: 	[ :exception |
+			exitException := exception.
+			exitBlock v[..]
+	Receiver's instance variables: 
+		outerContext: 	ClapContext>>executeToExit:
+		compiledBlock: 	a CompiledBlock: [
+		self rememberSession.
+		self ifMismatch[..]
+		numArgs: 	0
+		receiver: 	a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'p[..]
+
+
+ClapContext>>executeToExit:
+	Receiver: a ClapContext(an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md'))
+	Arguments and temporary variables: 
+		exitBlock: 	[ :exit | self handleExit: exit ]
+	Receiver's instance variables: 
+		specification: 	a ClapRoot(clap)
+		arguments: 	an OrderedCollection('pillar' 'build' '--format' 'pdf' 'index.md')
+		obeyingExits: 	true
+		stdio: 	Stdio
+		match: 	a ClapCompositeMatch(pillar build --format pdf index.md)
+		leftovers: 	an OrderedCollection()
+		session: 	a WorkingSession
+		exitException: 	nil
+
+
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+	Receiver: a ClapCommandLineHandler
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		commandLine: 	a CommandLineArguments
+		session: 	a WorkingSession
+		stdout: 	a VTermOutputDriver
+		stderr: 	a VTermOutputDriver
+
+
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+	Receiver: [
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments[..]
+	Arguments and temporary variables: 
+x
+	Receiver's instance variables: 
+		outerContext: 	ClapCommandLineHandler>>activate
+		compiledBlock: 	a CompiledBlock: [
+		ClapContext withPragmaCommands
+			beObe[..]
+		numArgs: 	0
+		receiver: 	a ClapCommandLineHandler
+
+
+
+--- The full stack ---
+UndefinedObject(Object)>>doesNotUnderstand: #contributeToPipelineBuilding:
+PRPdfOutput(PRTarget)>>buildOn:
+ClapPillarBuildCommand>>execute
+ClapPillarBuildCommand(ClapApplication)>>executeOrPrintHelp
+[
+		self rememberSession.
+		self ifMismatch: [ self command printHelp. self exitFailure ].
+		self validateAll.
+		self command executeOrPrintHelp.
+		self exitSuccess ] in ClapContext>>executeToExit:
+FullBlockClosure(BlockClosure)>>on:do:
+ClapContext>>executeToExit:
+[
+		ClapContext withPragmaCommands
+			beObeyingExits;
+			setStdio: Stdio;
+			arguments: self arguments;
+			executeToExit: [ :exit | self handleExit: exit ]
+	] in ClapCommandLineHandler>>activate
+[self value.
+			"IMPORTANT: Do not step over next line of code. See method comments for details"
+			Processor terminateRealActive] in FullBlockClosure(BlockClosure)>>newProcess
+-------------------------------------------------------------------------------
+
