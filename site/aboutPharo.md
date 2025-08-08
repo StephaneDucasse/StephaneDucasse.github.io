@@ -11,10 +11,8 @@ It is inspired by Smalltalk (I'm extremely grateful to Alan Kay and Dan Ingalls 
 From that perspective, I'm used to say that Pharo is what we have and not what we want. 
 In essence, Pharo is the beginning of the journey and not the final goal. And you can change its future.
 
-
-You can check what companies are saying about it: [Video](https://youtu.be/6tdkKNX2g4s)
-
-
+#### A nice video 
+You can check what companies using Pharo are saying about Pharo: [Video](https://youtu.be/6tdkKNX2g4s)
 
 
 
@@ -34,16 +32,16 @@ Here are some topics I would love to see improvements.
 - Channels and others: Can we improve the concurrent model (without falling into the actor model :))
 - Parallelism (the story behind the global interpreter loop): How can we take advantage of multiple CPUs?
 - Microkernels (see the PhD of Guillermo Polito): How can we build different specific language kernels?
-- Multiple language kernels running side by side: Could we have a runtime supporting the execution of program written in different versions of the language. 
-- Pharoish like language for IoT: What are the abstractions and runtime to run Pharo and one of its flavors into small IOT oriented devices. 
+- Multiple language kernels running side by side: Could we have a runtime supporting the execution of programs written in different versions of the language? 
+- Pharoish-like language for IoT: What are the abstractions and runtime to run Pharo and one of its flavors into small IoT-oriented devices. 
 - Dynamic inliner for our lovely VM: Can we produce a VM that goes 2 times faster?
 - Better integration with OS
 - Pharo-based shell: I would love to have a Pharo shell that we can easily script and debug.
 
 ## Some tool challenges
 
-- We are strong believers of tests. Now how can we get more out of them?
-- How can we "optimize" tests: reduce duplication, help developers navigate them? See my paper (Test Qualit yAssessment -- PDF)[https://rmod-files.lille.inria.fr/Team/Texts/Papers/Reic07aTestQualityAssessment.pdf]
+- We are strong believers in tests. Now how can we get more out of them?
+- How can we "optimize" tests: reduce duplication, help developers navigate them? See my paper [Test Quality Assessment -- PDF](https://rmod-files.lille.inria.fr/Team/Texts/Papers/Reic07aTestQualityAssessment.pdf)
 - How can we better/faster debug programs? (check the work of Steven Costiou). How can we go further?
 
 
