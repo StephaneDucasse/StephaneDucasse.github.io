@@ -11,8 +11,7 @@ It is inspired by Smalltalk (I'm extremely grateful to Alan Kay and Dan Ingalls 
 From that perspective, I'm used to say that Pharo is what we have and not what we want. 
 In essence, Pharo is the beginning of the journey and not the final goal. And you can change its future.
 
-#### A nice video 
-You can check what companies using Pharo are saying about Pharo: [Video](https://youtu.be/6tdkKNX2g4s)
+_Some nice testimonies._ You can check what companies using Pharo are saying about Pharo: [Video](https://youtu.be/6tdkKNX2g4s)
 
 
 
