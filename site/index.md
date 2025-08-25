@@ -38,3 +38,14 @@ Some old figures but they illustrate well my point.
 
 This raises the important question of how many citations are worth one real user (not one of our students). I do not have a definitive answer on that point, but it is important to understand that there is a __Huge__ difference between a research prototype and a real system, and Pharo is a real system with real customers. This requires a large development effort. We are lucky because Inria researcher evaluation takes this into account. Now this is an important question for funding agencies and any evaluation of my team.
 
+## Reflection about work evaluation
+
+My colleague Anne Etien posted a really good call on linkedIn. 
+I copy-paste it here literally because this is so true.
+
+Dear colleagues and reviewers,
+Please stop reviewing papers submitted to NIER or ERA tracks as if they were submitted to a research track. 
+We can't expect a replication package or a strong empirical evaluation for those papers. The 'E' means Emergent or Early, depending on the case. If the authors have a valid prototype and a strong evaluation, we can be sure they will submit to the main track. We also have to be humble and to accept real early ideas.
+Similarly, for the industrial track, don't expect an evaluation with hundreds of software systems. Having one with real industrials can already be complex, and applying a research approach for real too.
+Please do not mix everything, or let's merge the tracks and keep only the research ones.
+

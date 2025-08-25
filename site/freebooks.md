@@ -172,6 +172,15 @@ ISBN: 0-13-165549-3, Publisher: Prentice Hall, Copyright: 1996. A great and smal
 </td>
 </tr>
 
+<tr>
+<td width="45%">
+<img src="freebooks/BestSmalltalkPractices/BestSmalltalkPractice.jpg" width=100>
+</td>
+<td width="55%">
+[ Best Smalltalk Practices ](freebooks/BestSmalltalkPractices/Smalltalkbestpracticepatterns-BeckKent--1997--PrenticeHall--9780132852104.pdf)
+Thanks thanks thanks - Kent. It was a book we offered to our master students! So great. I love it.
+</td>
+</tr>
 
 
 <tr>
@@ -328,14 +337,6 @@ Thanks again Ivan and continue to write good books.
 </td>
 </tr>
 
-<tr>
-<td width="45%">
-<img src="freebooks/BestSmalltalkPractices/BestSmalltalkPractice.jpg" width=100>
-</td>
-<td width="55%">
-[ Smalltalk, Objects, and Design ](freebooks/BestSmalltalkPractices/Smalltalkbestpracticepatterns-BeckKent-- 1997--PrenticeHall--9780132852104.pdf)
-</td>
-</tr>
 
 
 
