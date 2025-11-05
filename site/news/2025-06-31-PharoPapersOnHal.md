@@ -9,13 +9,13 @@ Hello,
 
 As you might know, we have started to collect all papers/books that are related to Pharo.
 
-This is on HAL (https://hal.science), an international repository for open science that is used by the French science community (e.g. Inria and CNRS).
+This is on HAL (https://inria.hal.science), an international repository for open science that is used by the French science community (e.g. Inria and CNRS).
 
-The platform is open to anyone, and after some years of iteration, it starts to be really quite nice.
+The platform is open to anyone, and after some years of iteration, it has started to be really quite nice.
 
 "HAL is a multidisciplinary open archive for the sharing of published and unpublished research. It is at the service of researchers in academic institutions, both public and private. In France, HAL is the national archive chosen by the scientific and academic community for the open dissemination of its research results. The repository is also at the service of researchers affiliated to foreign academic institutions, whether public or private.”
 	
-More infos here: https://about.hal.science/en/
+More info here: https://about.hal.science/en/
 
 The Pharo collection on HAL now contains over 200 entries. The collection includes papers/books that are either about Pharo or use it in some way.
 
@@ -26,6 +26,7 @@ The HAL Monitor provides some more stats: https://monitor.hal.science/?collectio
 Of course, there are only those papers in the archive that the original authors added (and tagged for the Pharo Collection).
 
 To check if your paper is there, the easiest is to check the authors: https://inria.hal.science/PHARO/browse/author
+
 
 ## How do I add my papers?
 
