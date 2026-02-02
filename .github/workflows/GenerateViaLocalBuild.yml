@@ -1,10 +1,14 @@
 name: GenerateViaLocalBuild
-
+# This workflow is to be used when we are developing foliage. 
+# It builds everything manually and at each commit. 
+# in general it is better to use the generate action since it is way faster and using the centralised version.
+ 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
+  # I commented the following to make sure that the shared version get executed on push and not this workflow
+  #push:
+  #  branches: [ "main" ]
     # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
