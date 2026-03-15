@@ -12,9 +12,9 @@ Since September 2007, I've been a research director at INRIA Lille. I led the RM
 
 ## Awards and Indexes
 
-Some people consider that the h-index is not a good criterion for researcher evaluation. To me, this is just one among others. Trying to understand it, it looks like it shows a bit the width of your research (i.e., that several topics got recognition within a community). Personally, I do not work with this metric in mind, I just try to publish the best results I have with my co-workers and thank them for their energy. According to Google Scholar my h-index is 63 (https://scholar.google.com/citations?hl=en&user=7fHNqtoAAAAJ).
+Some people consider that the h-index is not a good criterion for researcher evaluation. To me, this is just one among others. Trying to understand it, it looks like it shows a bit the width of your research (i.e., that several topics got recognition within a community). Personally, I do not work with this metric in mind, I just try to publish the best results I have with my co-workers and thank them for their energy. According to Google Scholar my h-index is 62 (https://scholar.google.com/citations?hl=en&user=7fHNqtoAAAAJ).
 
-- I got promoted Directeur de recherche classe exceptionelle. 
+- In 2026, I got promoted Directeur de recherche classe exceptionelle. 
 - I got laureate 2023 of "Prix FIEEC Bpifrance de la Recherche appliquée 2023"
 - I got the "Test of Time ECOOP 2023" award for _Traits: Composable Units of Behavior_
 - I got the best paper award of Vissoft 2022 for _A New Generation of Class Blueprint_
