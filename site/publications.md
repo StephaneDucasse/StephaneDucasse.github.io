@@ -3,9 +3,11 @@
 "layout" : "index",
 "plugin" : [ "kind" : "publicationList",
 	"pluginSpec" : [ 
-		#authorMatchingString : 'Ducasse',
-		#keysOfBlackListedEntries : [ ],
-		#bibFilename: 'rmod.bib' ] ],
+		"authorMatchingString" : "Ducasse",
+		"setFiltering" : "true",
+		"keysOfBlackListedEntries" : [ "Berg13b", "Berg16a", "Denk14a", "Denk15a", "Denk16a", "Denk18a", "Denk19a", "Denk20a", "Denk21a", "Anqu17a", "Denk22a", "Denk23a", "Denk24a" , "Denk25a" ],
+		"bodySpecification" : [ "internationalJournal", "nationalJournal", "topConference", "internationalConference", "nationalConference", "invitedPaper", "bookChapter", "book", "editor", "internationalWorkshop", "booklet", "technicalReport", "vulgarisation" ],
+		"bibFilename" : "rmod.bib" ] ],
 "publishDate" : "2025-06-01"
 }
 
